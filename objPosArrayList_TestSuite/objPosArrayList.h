@@ -8,9 +8,9 @@
 class objPosArrayList
 {
     private:
-        objPos* aList;
-        int sizeList;
-        int sizeArray;
+        objPos* aList; // Pointer to the start of an objPos array list
+        int listSize;
+        int arrayCapacity;
 
     public:
         objPosArrayList();
